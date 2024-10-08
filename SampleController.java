@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/sample")
 public class SampleController {
 
-    //localhost:8080/sample/sayhello/Deepak
+    //localhost:8080/sample/sayhello/Deepthi
     @GetMapping("/sayhello/{name}")
     public String sayHello(@PathVariable("name") String name) {
         return "Hello " + name;
